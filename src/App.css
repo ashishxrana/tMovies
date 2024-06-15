@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 100vw;
+}
+.container1{
+  max-width: 100vw;
+  margin: 0;
+}
+.container1::before{
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  min-width: 100vw;
+  height: 100vh;
+  background-image: url('components/images/movies.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter:brightness(30%);
+}
+.login {
+  position: relative;
+  height: 100vh;
+}
+.loginDetails{
+  position: relative;
+  width:350px;
+  text-align:center;
+  z-index: 1;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:#fff;
+  background-color: rgba(255, 255, 255, 0.212);  
+  backdrop-filter: blur(5px);
+}
+.loginButton{
+  background-color:#79bb3f;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0 30px 0;
+  padding:5px 40px;
+  cursor: pointer;
+}
+.name{
+  margin:0 0 15px 0;
+}
+.userName{
+  margin: 0 0 15px 0;
+}
+.password{
+  margin: 15px 0 30px 0;
+}
+.loginText{
+  margin-top: 20px;
+  font-size: 30px;
+  color:#79bb3f;
+}
+.login input,.forgetPass input{
+  border:none;
+  background-color: transparent;
+  color:#fff;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  width:240px;
+}
+.login input:hover ,.forgetPass input:hover{
+  border-color:#79bb3f;
+}
+::placeholder {
+  color:#fff;
+  opacity: 1;
+  font-size: 14px;
+}
+.signUp p,span{
+  font-size: 13px;
+}
+.signUp span{
+  color:#79bb3f;
+}
+.signUp span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.extraLoginLogo{
+  cursor: pointer;
+}
+.extraLoginLogo:hover{
+  color:#79bb3f;
+}
+.extraLoginLogo1{
+  margin:0 10px 10px 0;
+}
+.extraLoginLogo2{
+  margin:0 0 10px 0;
+}
+.checkLogin{
+  position: absolute;
+  top:0;
+}
+.error{
+  margin:10px;
+  color:red;
+}
+.forgetPsd{
+  font-size: 13px;
+  position: absolute;
+  right:16%;
+  color:#79bb3f;
+  cursor: pointer;
+}
+.forgetPsd:hover{
+  text-decoration: underline;
+}
+.backToLogin{
+  color:#fff;
+  font-size: 13px;
+  margin: 5px;
+  position: absolute;
+  right: 13%;
+}
+.backToLogin:hover{
+  color:#79bb3f;
+  text-decoration: underline;
+}
+.forgetpassEmail{
+  margin:40px 0;
+}
+.logoutUser{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.userBtn{
+  padding:10px 30px;
+  color:#fff;
+  margin:10px;
+  background-color: #79bb3f;
+  border:none;
+  border-radius: 10px;
+  margin:10px soi
+}
